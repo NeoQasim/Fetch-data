@@ -18,7 +18,7 @@ const Api_Data = () => {
     }, [])
 
     return (
-        <>
+        <> 
         {
             title?.map((some)=>{
                 return <h1>{some.title}</h1>
